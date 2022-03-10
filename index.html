@@ -206,16 +206,16 @@
     <div class="p">批凭证</div>
     <ul>
         <li>
-            <p>林景行</p>
-            <p>201910096816</p>
-            <p>管理学院</p>
+            <p>徐培轩</p>
+            <p>202010139112</p>
+            <p>大数据学院</p>
             <p>单据审批状态:</p>
             <h3 class="gre">同意</h3>
         </li>
         <li>
             <p>离校时间：</p>
             
-            <h3 class="time-left">2022-3-3</h3>
+            <h3 class="time-left">2022-3-11</h3>
 
             <div class="box">
                 
@@ -224,34 +224,10 @@
         </li>
     </ul>
     <span>离校</span>
-    <h3 class="timer">2022-3-3 22:30:56</h3>
+    <h3 class="timer">2022-3-11 10:30:56</h3>
 </div>
 <div class="but"> Copyright(C)2021 广州城市理工学院网络与信息中心版权所有</div>
-<script>
-    window.onload = function () {
-        var timer = document.querySelector(".timer");
-        setInterval(function () {
-            var time = new Date(); // 程序计时的月从0开始取值后+1
-            var timetwo = document.querySelector('.time-left');
 
-            var m = time.getMonth() + 1;
-            var hour = time.getHours();
-            hour = hour < 10 ? '0' + hour : hour;
-            var min = time.getMinutes();
-            min = min < 10 ? '0' + min : min;
-            var sec = time.getSeconds();
-            sec = sec < 10 ? '0' + sec : sec;
-            var t2 = time.getFullYear() + "-" + m + "-" +
-                time.getDate();
-
-            var t = time.getFullYear() + "-" + m + "-" +
-                time.getDate() + " " + hour + ":" +
-                min + ":" + sec;
-            timer.innerHTML = t;
-            timetwo.innerHTML = t2;
-        }, 1000);
-    };
-</script>
 
 
 
